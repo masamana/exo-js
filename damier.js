@@ -1,6 +1,4 @@
-var taille = 0, caractere = "", i = 0, j = 0;
-taille = proglab.inputNumber("Entrez taille");
-caractere = proglab.input("Entrez caractere");
+var taille = 5, caractere = "N", i = 0, j = 0;
 
 for (j = 1; j <= taille; j++) 
 {
@@ -8,11 +6,11 @@ for (j = 1; j <= taille; j++)
     {
 		if (j % 2 == 0) 
         {
-			proglab.print(caractere + " ");
+			console.log(caractere + " ");
 		} else 
             {
-                proglab.print(" " + caractere);
+                console.log(" " + caractere);
             }
 	}
-	proglab.println("");
+	console.log("");
 }
